@@ -1,0 +1,33 @@
+{
+  "name": "node-synopsis",
+  "description": "SYNOPSIS.",
+  "version": "0.1.0",
+  "author": "Yusuke Kawasaki <u-suke@kawa.net>",
+  "bugs": {
+    "url": "https://github.com/kawanet/node-synopsis/issues"
+  },
+  "contributors": [
+    "Yusuke Kawasaki <u-suke@kawa.net>"
+  ],
+  "devDependencies": {
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.14",
+    "mocha": "^8.2.1"
+  },
+  "homepage": "https://github.com/kawanet/node-synopsis#readme",
+  "keywords": [
+    "synopsis"
+  ],
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawanet/node-synopsis.git"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p .",
+    "fixpack": "fixpack",
+    "mocha": "./node_modules/.bin/mocha -R spec test/*.js",
+    "test": "npm run mocha"
+  }
+}
