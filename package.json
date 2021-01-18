@@ -12,6 +12,7 @@
   "devDependencies": {
     "@types/mocha": "^8.2.0",
     "@types/node": "^14.14.14",
+    "axios": "^0.21.1",
     "mocha": "^8.2.1"
   },
   "homepage": "https://github.com/kawanet/node-synopsis#readme",
